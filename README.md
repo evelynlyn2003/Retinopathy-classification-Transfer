@@ -1,4 +1,5 @@
-# CNN辨識糖尿病視網膜病變病灶影像進行嚴重度分類
+# CNN+遷移學習(ResNet)糖尿病視網膜病變嚴重度分類
+- 本專案使用卷積神經網路（Convolutional Neural Network, CNN）辨識糖尿病視網膜病變（Diabetic Retinopathy, DR）影像，並將病灶依照醫學定義分類為 0～4 等級（五類嚴重度）。模型採用 ResNet50 深度遷移學習，透過資料增強提升模型泛化能力，並使用 Kaggle 官方評分規則進行測試。最終模型在 Kaggle Public Leaderboard 上取得 0.79863 的得分，並在 AUC 與加權敏感度上皆表現良好。
 
 ### A. 數據 (Dataset & DataLoader)
 
